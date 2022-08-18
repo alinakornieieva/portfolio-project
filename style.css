@@ -1,0 +1,54 @@
+:root{
+    --main-color: #295f4e;
+}    
+
+.main{
+    background-color: var(--main-color);
+   color: white;
+}
+
+.my-name, .my-job{
+    text-align: center;
+    margin: 0;
+}
+
+.my-name{
+    font-size: 64px;
+    font-weight: 600;
+}
+.my-job{
+    font-size: 40px;
+}
+
+h3{
+    opacity: 0.7;
+}
+
+.btn{
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 20px;
+}
+
+.btn:hover{
+   background-color: black; 
+   color: white;
+   
+}
+
+.main-button{
+    text-align: center;
+}
+
+.link-to-github{
+    text-align: center;
+}
+
+.github{
+    font-size: 32px;
+    color: var(--main-color);
+}
+
+.github:hover{
+    color: black;
+}
