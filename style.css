@@ -7,7 +7,21 @@
    color: white;
 }
 
-.my-name, .my-job{
+.gretting{
+    padding-top: 120px;
+    font-size: 64px;
+}
+.my-name-about{
+    font-size: 48px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.opacity{
+    opacity: 0.7;
+    font-size: 18px;
+}
+
+.my-name, .my-job, .gretting{
     text-align: center;
     margin: 0;
 }
@@ -25,6 +39,7 @@
     background-color: var(--main-color);
     color: white;
     padding: 15px 20px;
+    margin: 20px;
 }
 
 .btn:hover{
@@ -36,23 +51,36 @@
     font-size: 36px;
 }
 
+.frame{
+    display: block;
+    margin: 0 auto;
+}
+
+
 .highlight{
-    border: solid 1px;
-    padding: 5px;
-    width: 50%;
     text-align: center;
-    color: white;
-    background-color: var(--main-color);
-    border-radius: 5px;
+    font-size: 32px;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
 }
 
 .main-button{
     text-align: center;
 }
 
-.about-job{
-    opacity: 0.7;
+.container{
+    text-align: center;
+}
 
+.about-job{
+    font-size: 22px;
+}
+
+p{
+    font-size: 22px;
+ 
 }
 
 .link-to-github{
