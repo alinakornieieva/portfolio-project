@@ -26,6 +26,7 @@
 
 .contact-container a{
     color: var(--main-color);
+    text-decoration: none;
 }
 
 .contact-container a:hover{
