@@ -16,6 +16,22 @@
     padding-top: 20px;
     font-weight: 700;
 }
+.contact-container {
+    text-align: center;
+}
+
+.contact-container i{
+    font-size: 32px;
+}
+
+.contact-container a{
+    color: var(--main-color);
+}
+
+.contact-container a:hover{
+    color: black;
+}
+
 .opacity{
     opacity: 0.7;
     font-size: 18px;
