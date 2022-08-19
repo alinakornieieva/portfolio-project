@@ -100,16 +100,28 @@ p{
  
 }
 
-.link-to-github{
+.footer-color{
+    background-color: #f9f7fe;;
+}
+
+.link-to-social{
     text-align: center;
 }
 
-.github{
-    font-size: 32px;
+.mail-link{
+    text-decoration: none;
+    font-size: 22px;
     color: var(--main-color);
 }
 
-.github:hover{
+.footer-link{
+    font-size: 32px;
+    color: var(--main-color);
+    margin: 20px;
+   
+}
+
+.mail-link:hover, .footer-link:hover{
     color: black;
 }
 
