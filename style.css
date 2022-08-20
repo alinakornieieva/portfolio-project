@@ -1,10 +1,16 @@
 :root{
     --main-color: #295f4e;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }    
 
 .main{
     background-color: var(--main-color);
    color: white;
+}
+
+.add-shadow{
+    box-shadow: var(--box-shadow);
 }
 
 .gretting{
@@ -57,6 +63,7 @@
     color: white;
     padding: 15px 20px;
     margin: 20px;
+    box-shadow: var(--box-shadow);
 }
 
 .btn:hover{
@@ -76,7 +83,8 @@
 
 .highlight{
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 body{
